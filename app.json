@@ -1,0 +1,38 @@
+{
+	"expo": {
+		"name": "Todo App",
+		"slug": "todo-app",
+		"version": "1.0.0",
+		"orientation": "portrait",
+		"icon": "./assets/images/icon.png",
+		"scheme": "myapp",
+		"userInterfaceStyle": "automatic",
+		"splash": {
+			"image": "./assets/images/splash.png",
+			"resizeMode": "contain",
+			"backgroundColor": "#e84794"
+		},
+		"ios": {
+			"supportsTablet": true,
+			"bundleIdentifier": "com.geeky.todoapp"
+		},
+		"extra": {
+			"eas": {
+				"projectId": "07604cf0-6d6e-4e97-8d09-7e0b11bfff4d"
+			}
+		},
+		"android": {
+			"package": "com.geeky.todoapp",
+			"adaptiveIcon": {
+				"foregroundImage": "./assets/images/adaptive-icon.png",
+				"backgroundColor": "#e84794"
+			},
+			"googleServicesFile": "./google-services.json"
+		},
+		"web": {
+			"bundler": "metro",
+			"output": "static",
+			"favicon": "./assets/images/favicon.png"
+		}
+	}
+}
